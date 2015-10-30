@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	padding:0px;
+	margin: auto;
+}
+
+body {
+	background-image: url("Images/lodyas.png");
+	padding: 5% 10%;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+#wrapper {
+	padding: 20px;
+	background-image: url("Images/triangular.png");
+	height: 110vh;
+	border: 2px solid #3D3B35;
+}
+h1{ 
+	text-align:center;
+	color: #000000;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-shadow: 2px 2px #B7B6B6;
+}
+
+#header {
+	background-image: url("Images/notebook.png");
+	padding: 8%;
+	border: 1px solid #3D3B35;
+}
+
+#main{
+	padding: 10px 1px;
+	
+}
+
+h2{
+	text-align:left;
+}
+
+ p{
+	padding: 4px;
+	line-height:inherit;
+	font-size: 12px;
+}
+
+/*table setup*/
+
+.timetable {
+  	color: #fff;
+ 	border-collapse: collapse;
+	border-spacing: 0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10px;
+	display: table;
+	width: 80%;
+	max-width:1500px;
+}
+
+caption{
+	text-align:left;
+	padding: 4px 0;
+}
+th,td
+{
+	margin: 0;
+	text-align: center;
+	outline: 1px solid #e3e3e3;
+	font-size:9px;
+	border-top: 1px solid #ddd;
+	padding: 4px 8px;
+}
+/*stipes*/
+table tr:nth-child(odd){
+	background-color: hsla(210,29%,29%,0.80);
+}
+
+table tr:nth-child(even){
+	background-color: hsla(210,29%,50%,0.80);
+}
+
+td{
+	padding: 5px 10px;
+}
+
+th{
+	background: #666;
+	color: #E6ECF1;
+	padding: 5px 10px;
+	
+}
+
+td:hover
+{
+	cursor:pointer;
+	background: #666;
+	color: #FFFFFF;
+}
+
+/*media queries*/
+@media only screen and (max-width:480px) {
+
+.timetable{
+	display:block;
+	overflow-x: scroll;
+}
+}
+
+@media only screen and (min-width:480px) and (max-width: 710px) {
+	.timetable{
+	display:block;
+	width: 100%;
+	overflow-x: scroll;
+}
+}
+
+/*tr, td{ 
+	display:block;
+	padding: 0;
+	white-space:normal;
+	text-align: left;
+}
+
+tr{
+	border-bottom: 1px soilid #eee;
+	padding-bottom:11px;
+	margin-bottom: 11px;	
+}
+
+td{
+	border: none;
+	margin-bottom: 6px;	
+}
+
+table td: empty{
+	display: none;
+}
+
+}
+
+
+
+/*/ 
+
+
+/*body {
+  padding: 0 2em;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
+}
+
+
+  th, td {
+    margin: .5em 1em;
+    @media (min-width: ) { 
+      padding: 1em !important; 
+    }
+ 
