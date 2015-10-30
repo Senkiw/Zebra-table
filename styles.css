@@ -81,6 +81,9 @@ table tr:nth-child(even){
 	background-color: hsla(210,29%,50%,0.80);
 }
 
+col:nth-child(even){background-color:hsla(210,29%,15%,1.00);}
+col:nth-child(odd){background-color:hsla(210,29%,50%,1.00);}
+
 td{
 	padding: 5px 10px;
 }
