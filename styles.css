@@ -14,7 +14,7 @@ body {
 #wrapper {
 	padding: 20px;
 	background-image: url("Images/triangular.png");
-	height: 110vh;
+	height: 100%;
 	border: 2px solid #3D3B35;
 }
 h1{ 
